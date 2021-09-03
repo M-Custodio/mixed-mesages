@@ -15,7 +15,7 @@ const knockKnockObject = {
                 ]   
 }
 
-const randomNum = (num) => Math.floor(Math.random() * num)
+const randomNum = num => Math.floor(Math.random() * num)
 
 const punchLine = knockKnockObject.punchLine[randomNum(knockKnockObject.punchLine.length)]
 
